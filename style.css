@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(bgnubank.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    width: 100px;
+    padding: 13px;
+}
+
+.conteudo {
+    padding-top: 130px;
+}
+
+.linhaprincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto {
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: -0.03em;
+    text-size-adjust: 100%;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.16;
+    max-width: 470px;
+}
+
+.textoemail {
+    padding: 22px;
+    font-size: 1.5rem;
+    line-height: 1.32;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(17, 17, 17);
+    font-weight: 550;
+}
+
+.insiraemail {
+    background-color: white;
+    width: 330px;
+    height: 340px;
+    border-radius: 1rem;
+    display: block;
+    margin-left: 100px;
+}
+
+.caixabotao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botao {
+    text-align: left;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 6.25rem;
+    background: rgb(231, 231, 231);
+    color: rgb(148, 148, 148);
+    height: 48px;
+    max-width: 280px;
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: 0px;
+    border: 0px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.insira {
+    width: 260px;
+    margin-top: 30px;
+    margin-left: 34px;
+
+}
+
+.campocpf {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    border: unset;
+    outline: none;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    
+}
